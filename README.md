@@ -18,7 +18,7 @@ We explore two main approaches to address this challenge: First, we introduce a 
             └── NLP4LSS Data Processing.ipynb
 ```
 
-## DTo Reproduce
+## To Reproduce
 - To finetune the model we used a subset of the data provided due to hardware and time constraints.
 - To generate this subset one can use the NLP4LSS Data Processing Script
 - To get the data first visit the following website https://data.stanford.edu/congress_text and download the hein_daily.zip
