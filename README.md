@@ -5,25 +5,18 @@ The advancement of Large Language Models (LLMs) has started to democratize their
 We explore two main approaches to address this challenge: First, we introduce a novel style embedding layer into the architecture of GPT-2, thereby creating a modified model that theoretically captures the style characteristics of a given entity. Second, we investigate instruction fine-tuning using a more recent LLM, Llama 2, where we explicitly specify the desired style or speaker in the generative instruction.
 
 ## Recommended file structure
+```
 .
-|
--- NLP4LSS Data
-   |
-   -- hein-daily
-|
--- NLP4LSS Script
-   |
-   -- NLP4LSS-Project-Personalized-Text-Generation
-      |
-      -- .git
-      |
-      -- Scripts
-         |
-         -- Evaluation.ipynb
-         |
-         -- Finetune_LLama2_7B.ipynb
-         |
-         -- NLP4LSS Data Processing.ipynb
+├── NLP4LSS Data
+│   └── hein-daily
+└── NLP4LSS Script
+    └── NLP4LSS-Project-Personalized-Text-Generation
+        ├── .git
+        └── Scripts
+            ├── Evaluation.ipynb
+            ├── Finetune_LLama2_7B.ipynb
+            └── NLP4LSS Data Processing.ipynb
+```
 
 ## DTo Reproduce
 - To finetune the model we used a subset of the data provided due to hardware and time constraints.
